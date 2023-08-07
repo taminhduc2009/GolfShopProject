@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Golf</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("BJCzTVW_iViD3KqHj");
+   })();
+</script>
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="headertop">
+            <div class="language">
+                <select name="" id="">
+                    <option value="0">ENG</option>
+                    <option value="0"><a href="#">VIE</a></option>
+
+                </select>
+            </div>
+            <p class="welcome">
+                Welcome to Duc Shop take awayCall
+            </p>
+
+            <div class="call_us">
+                <a href="#" class="wishlist"><i class="fa-solid fa-heart"></i>
+                wishlist
+                </a>
+
+                <p class="call">Call us: 0123-456-789</p>
+            </div>
+        </div>
+
+
+        <div class="headermiddle">
+            <div class="searchicon">
+                <input type ="text" class="searching" placeholder="Search...">
+                <a href="#" class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="image_golf">
+                <a href="../html/index.html"><img src="../img/logo.avif" alt=""></a>
+            </div>
+            <div class="information">
+                <a href="../html/signin.html" class="account">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="word">
+                        <p class="my-account">My account</p>
+                        <p class="getalloption">Get all option</p>
+                    </div>
+                </a>
+                <div class="shopping">
+                    <a href="#" class="account">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="word">
+                            <p class="my-account">Shopping cart</p>
+                            <p class="getalloption">0 item - 0.00</p>
+                        </div>
+                    </a>
+                        
+                
+                </div>
+            </div>
+        </div>
+
+
+        <div class="headerbottom">
+            <ul class="list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Collection</a></li>
+                <li><a href="../html/product.html">Shop</a></li>
+                <li><a href="../html/blog.html">Blog</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="">Pages</a></li>
+
+        </div>
+
+
+    </header>
+    <div class="contact-form">
+        <div class="contact-left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/800px-Gmail_icon_%282020%29.svg.png">
+        </div>
+        <div class="contact-right">
+            <h1>Get in touch</h1>
+            <div>
+                <input type = "text" id="name" placeholder="Name">
+                <input type = "email"  id="email "placeholder="Email">
+                <textarea rows="4" cols="50" id="message" placeholder = "Message"></textarea>
+                <button onclick="submit()" class="btn">Send message</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/contact.js"></script>
+    
+</body>
+
+</html>
