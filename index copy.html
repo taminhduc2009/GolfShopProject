@@ -9,79 +9,52 @@
     <title>Golf</title>
     <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 <body>
-    <header class="header">
-        <div class="headertop">
-            <div class="language">
-                <select name="" id="">
-                    <option value="0">ENG</option>
-                    <option value="0"><a href="#">VIE</a></option>
-
-                </select>
-            </div>
-            <p class="welcome">
-                Welcome to Duc Shop take awayCall
-            </p>
-
-            <div class="call_us">
-                <a href="#" class="wishlist"><i class="fa-solid fa-heart"></i>
-                wishlist
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../img/logo.avif"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/blog.html">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Account
                 </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../register.html">Sign up</a></li>
+                  <li><a class="dropdown-item" href="../signin.html">Sign in</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
 
-                <p class="call">Call us: 0123-456-789</p>
-            </div>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-
-
-        <div class="headermiddle">
-            <div class="searchicon">
-                <input type ="text" class="searching" placeholder="Search...">
-                <a href="#" class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></a>
-            </div>
-            <div class="image_golf">
-                <a href="../html/index.html"><img src="../img/logo.avif" alt=""></a>
-            </div>
-            <div class="information">
-                <a href="./signin.html" class="account">
-                    <i class="fa-solid fa-user"></i>
-                    <div class="word">
-                        <p class="my-account">My account</p>
-                        <p class="getalloption">Get all option</p>
-                    </div>
-                </a>
-                <div class="shopping">
-                    <a href="#" class="account">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <div class="word">
-                            <p class="my-account">Shopping cart</p>
-                            <p class="getalloption">0 item - 0.00</p>
-                        </div>
-                    </a>
-                        
-                
-                </div>
-            </div>
-        </div>
-
-
-        <div class="headerbottom">
-            <ul class="list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="">Collection</a></li>
-                <li><a href="../html/product.html">Shop</a></li>
-                <li><a href="../html/blog.html">Blog</a></li>
-                <li><a href="">Accessories</a></li>
-                <li><a href="">Training Things</a></li>
-                <li><a href="">Pages</a></li>
-
-        </div>
-
-
-    </header>
+      </nav>
 
 
 
@@ -96,7 +69,7 @@
                                 <span class="WELCOME">WELCOME </span>
                                 <span>TO</span>
                                 <h1>GOLF CLUB</h1>
-                                <a href="#">VIEW MORE</a>
+                                <a href="#" class="button">VIEW MORE</a>
                         </div>
                     </div>
                 </div>
@@ -107,8 +80,8 @@
                                <span class="WELCOME">BOOK </span>
                                <span>ONLINE & SAVE</span>
                                <h1>GOLF CLUB</h1>
-                               <a href="#">VIEW MORE</a>
-                       </div>
+                               <a href="#" class='button'>VIEW MORE</a>
+                            </div>
                    </div>
                </div>
                <div class="swiper-slide">
@@ -118,7 +91,7 @@
                            <span class="WELCOME" ,>ENJOY</span>
                            <span>THE ULTIMATE</span>
                            <h1>GOLF EXPERIRENCE </h1>
-                           <a href="#">VIEW MORE</a>
+                           <a href="#" class='button'>VIEW MORE</a>
                    </div>
                </div>
            </div>
@@ -128,7 +101,7 @@
     </div>
 
     <div class="Category">
-        <div class="category-items">
+        <div class="category-items one">
             <div class="content-item">
                 <img src="../img/icon-3_8cbe0531-894a-4898-b5c4-8df353b5cd7e_1920X.png" alt="no image" >
                 <a href="#"><h1>Golf Stick</h1></a>
@@ -138,7 +111,7 @@
             </div>
             
         </div>
-        <div class="category-items">
+        <div class="category-items two">
             <div class="content-item">
                 <img src="../img/icon-1_1fe2b500-a9c7-4e94-b372-cc2dc8645ccc_1920X.avif" alt="no image" >
                 <a href="#"><h1>Ball Tee</h1></a>
@@ -148,7 +121,7 @@
                 
             </div>
             </div>
-            <div class="category-items">
+            <div class="category-items three">
                 <div class="content-item">
                     <img src="../img/icon-2_4c52fa9f-ac6d-4acd-ab76-e2f675a64542_1920X.png" >
                     <a href="#"><h1>Golf Stick</h1></a>
@@ -206,15 +179,18 @@
             </div>
         </div>
     </div>
-    <div class="home_image">
-        <div class="golf">
-            <a href="#"><img src="../img/img-1_800936cc-17b8-4466-bf11-7692c9a8f6e3_1920X.webp" alt=''></a>
-        </div>
-        <div class="golf">
-            <a href="#"><img src="../img/img-3_d6ce153f-7b75-433e-9c00-b15b8e95310c_1920X (1).webp" alt=''></a>
-        </div>
-        <div class="golf">
-            <a href="#"><img src="../img/img-2_1f307ee5-b7c4-48be-9727-aa4d6c939f9f_1920X.webp" alt=''></a>
+    <div class="golf-image">
+        <h1 class="golfimg">Golf Image</h1>
+        <div class="home_image">
+            <div class="golf one">
+                <a href="#"><img src="../img/img-1_800936cc-17b8-4466-bf11-7692c9a8f6e3_1920X.webp" alt=''></a>
+            </div>
+            <div class="golf two">
+                <a href="#"><img src="../img/img-3_d6ce153f-7b75-433e-9c00-b15b8e95310c_1920X (1).webp" alt=''></a>
+            </div>
+            <div class="golf three">
+                <a href="#"><img src="../img/img-2_1f307ee5-b7c4-48be-9727-aa4d6c939f9f_1920X.webp" alt=''></a>
+            </div>
         </div>
     </div>
 
@@ -249,9 +225,9 @@
     </div> -->
 
     <div class="newforyou">
-        <h2>News For You</h2>
+        <h2 class="new">News For You</h2>
         <div class="blog">
-            <div class="blog-list">
+            <div class="blog-list one">
                 <a href="../html/hittheballfast.html" class="hover_img">
                     <img src="../img/blog-12_grande.webp" alt="">
                 </a>
@@ -265,12 +241,12 @@
                 <h4><a href="../html/hittheballfast.html">Hit The Ball Fast</a></h4>
                 <p>Lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibu...</p>
                 <div class="moreread">
-                    <a href="../html/hittheballfast.html">Read More</a>
+                    <a href="../html/hittheballfast.html" style='display:inline-block;' class="button">Read More</a>
                 </div>
                 </div>
             </div>
             </div>
-            <div class="blog-list">
+            <div class="blog-list two">
                 <a href="Golf to best game relax.html" class="hover_img">
                     <img src="../img/blog-11_grande.webp" alt="">
                 </a>
@@ -284,12 +260,12 @@
                     <h4><a href="../html/Golf to best game relax.html">Golf To Best Game Relax</a></h4>
                     <p>Lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibu...</p>
                     <div class="moreread">
-                        <a href="../html/Golf to best game relax.html">Read More</a>
+                        <a href="../html/Golf to best game relax.html" style='display:inline-block;' class="button">Read More</a>
                     </div>
                     </div>
                 </div>
                 </div>
-                <div class="blog-list">
+                <div class="blog-list three">
                     <a href="../html/Ready to Play.html" class="hover_img">
                         <img src="../img/blog-10_grande.webp" alt="">
                     </a>
@@ -303,20 +279,75 @@
                         <h4><a href="../html/Ready to Play.html">Ready To Play!!!!</a></h4>
                         <p>Lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibu...</p>
                         <div class="moreread">
-                            <a href="../html/Ready to Play.html">Read More</a>
+                            <a href="../html/Ready to Play.html" style='display:inline-block;' class="button">Read More</a>
                         </div>
                         </div>
                     </div>
                     </div>
         </div>
     </div>
-
+    <h1 class = "weather">Weather for now</h1>
+    <div class="weather-container">
+        <div class="weather-left">
+            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/08/10/21/Golf-1.jpg">
+        </div>
+        <div class="weather-right">
+    
+            <div class="wave-group">
+                <input required="" type="text" class="input" id="search">
+                <span class="bar"></span>
+                <label class="label">
+                  <span class="label-char" style="--index: 0">N</span>
+                  <span class="label-char" style="--index: 1">a</span>
+                  <span class="label-char" style="--index: 2">m</span>
+                  <span class="label-char" style="--index: 3">e</span>
+                </label>
+              </div>
+            <!-- <input type = 'text' class="input" id="search" placeholder = 'Enter your city'> -->
+                <div class="tempe">
+                    <p class="name">__</p>
+                    <div class="tempet">
+                        <p class="temp">__</p>
+                    </div>
+                </div>
+                <div class="all">
+                    <div class="list1">
+                        <div class="vis">
+                            <i class="fa-solid fa-eye"></i>
+                            <p class= "wea">Visibility</p><p class="pipe">|</p><p class="visibility">__</p>
+                        </div>
+                        <div class="vis">
+                            <i class="fa-solid fa-wind"></i>
+                            <p class= "wea">Wind</p><p class="pipe">|</p><p class="wind">__</p>
+                        </div>
+                        <div class="vis">
+                            <i class="fa-solid fa-wind"></i>
+                            <p class= "wea">Gust</p><p class="pipe">|</p><p class="gust">__</p>
+                        </div>
+                    </div>
+                    <div class="list2">
+                        <div class="vis">
+                            <i class="fa-solid fa-droplet"></i>
+                            <p class= "wea">Humidity</p><p class="pipe">|</p><p class="humidity">__</p>
+                        </div>
+                        <div class="vis">
+                            <i class="fa-solid fa-sun"></i>
+                            <p class= "wea">Sunrise</p><p class="pipe">|</p><p class="sunrise">__</p>
+                        </div>
+                        <div class="vis">
+                            <i class="fa-solid fa-sun"></i>
+                            <p class= "wea">Sunset</p><p class="pipe">|</p><p class="sunset">__</p>
+                        </div>
+                    </div>
+                </div>    
+        </div>
+    </div>
     <div class="signup">
         <div class="container">
             <h1>Sign Up For Our Discounts Today!</h1>
             <p> Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt ris subscribe to the mannerlo mailing list to receive updates on new arrivels</p>
             <input type="Email">
-            <button>Subscribe</button>
+            <button class="button">Subscribe</button>
             <div class="icon">
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -387,8 +418,11 @@
             </div>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/weather.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
