@@ -103,3 +103,6 @@ a{
     padding: 0 24px;
     display: block;
     cursor: pointer;}
+a{
+    text-decoration-line: none;
+}

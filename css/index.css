@@ -944,30 +944,206 @@ a{
 .blog-list{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.header{
+
+/* @media screen and (min-width: 340px){
+    body{
+        padding: 0 10px;
+    }
+    .Category{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .content-item{
+        padding: 10px 0;
+
+    }
+    .content-item h1{
+        font-size: 20px;
+    }
+    .content-item span{
+        font-size: 13px;
+    }
+    .category-items{
+        width: 100%;
+    }
+
+    .product-list{
+        flex-direction: column;
+    }
+
+    .product-item{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .product-item a img{
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5%;
+    }
+    .home_image{
+        flex-direction: column;
+    }
+
+    .blog{
+        flex-direction: column;
+    }
+    .blog-list{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .hover_img{
+        width: 100%;
+    }
+    .blog-list img{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    .information12{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .weather-right{
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .all{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .weather-left{
+        display: none;
+    }
+    .signup .container{
+        width: 100%;
+    }
+    .signup .container button{
+        padding: 10px;
+    }
+    
+    .footer .footer-top{
+        flex-direction: column;
+    }
+    .footer-top{
+        padding: 0;
+        text-align: center;
+    }
+    .footer .footer-bottom .left ul{ 
+        flex-direction: column;
+    }
+    .footer-top .setwidth{
+        width: 100%;
+        margin: 0;
+    }
+    .content-home-carousel{
+        left: 10px;
+        top: 30%;
+    }
+    .content-home-carousel h1{
+        font-size: 16px;
+    }
+
+    
+} */
+.nav {
+    height: var(--header-height);
     display: flex;
     justify-content: space-between;
-    background-color: #333;
     align-items: center;
-    padding: 0 20px
-}
-.header-left a img{
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.header-right ul{
+  }
+  
+  .nav__logo, .nav__toggle {
+    color: var(--white-color);
+  }
+  
+  .nav__logo {
+    font-weight: var(--font-semi-bold);
+  }
+  
+  .nav__toggle {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .nav__menu {
+    position: relative;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .nav__menu {
+      position: fixed;
+      background-color: var(--body-color);
+      top: 0;
+      right: -100%;
+      width: 70%;
+      height: 100%;
+      box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
+      padding: 3rem;
+      transition: .4s;
+    }
+  }
+  
+  .nav__list {
     display: flex;
-    align-items: center;
-}
-.header-right ul li{
-    list-style: none;
-}
-.header-right ul li a{
-    color: #fff;
+    flex-direction: column;
+    row-gap: 2.5rem;
+  }
+  
+  .nav__link {
+    color: var(--text-color-light);
+    font-weight: var(--font-semi-bold);
+    text-transform: uppercase;
+  }
+  
+  .nav__link:hover {
+    color: var(--text-color);
+  }
+  
+  .nav__close {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+  
+  /* show menu */
+  .show-menu {
+    right: 0;
+  }
+  
+  /* Change background header */
+  .scroll-header {
+    background-color: var(--body-color);
+    box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+  }
+/* @media screen and (min-width : 768px) {
+   .Category{
+    flex-direction: row;
+    margin-top: 20px;
+   }
+   .product-list{
+    flex-direction: row;
+   }
+   .content-product a h1{
     font-size: 20px;
-    margin: 0 20px;
-}
+    margin-top: 20px;
+   }
+   .SpecialProduct h1{
+    
+    padding-top: 20px;
+   }
+   .content-item{
+    padding: 0 10px;
+   }
+   .home_image{
+    flex-direction: row;
+   }
+
+} */
 
