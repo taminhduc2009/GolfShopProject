@@ -2,7 +2,7 @@ let openShopping = document.querySelector('.shopping');
 let closeShopping = document.querySelector('.closeShopping');
 let list = document.querySelector('.list-products');
 let listCard = document.querySelector('.listCard');
-let body = document.querySelector('body');
+let body = document.querySelector('.body');
 let total = document.querySelector('.total');
 let quantity = document.querySelector('.quantity');
 
@@ -17,7 +17,7 @@ let products = [
   {
         id: 1,
         name: "GOLF CAP",
-        image: 'redcap.webp',
+        image: 'redboycap.webp',
         price: '$548.00'
       },
       {
@@ -59,7 +59,7 @@ let products = [
       {
         id: 8,
         name: "Adjustable golf cap",
-        image: 'golf stick.webp',
+        image: 'redcap.webp',
         price: '$325.00'
       },
       {

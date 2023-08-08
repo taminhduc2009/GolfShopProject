@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
-a{
+a {
     text-decoration-line: none;
 }
 /* .header .headertop{
@@ -113,6 +113,7 @@ a{
     display: block;
     cursor: pointer;
     transition: all 0.5s;
+    text-decoration-line: none;
 }
 .header .headerbottom .list li a:hover{
     color: #26d12d;
@@ -151,6 +152,7 @@ a{
     color: white;
     font-weight: 100;
     letter-spacing: 1px;
+    text-decoration-line: none;
 }
 .button {
     --color: #26d12d;
@@ -475,6 +477,7 @@ a{
 }
 .footer-contact a{
     color: white;
+    text-decoration-line: none;
 }
 .footer-contact p i{
     margin-right: 10px;
@@ -945,7 +948,7 @@ a{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-/* @media screen and (min-width: 340px){
+@media screen and (max-width: 340px){
     body{
         padding: 0 10px;
     }
@@ -1048,7 +1051,7 @@ a{
     }
 
     
-} */
+}
 .nav {
     height: var(--header-height);
     display: flex;
@@ -1122,10 +1125,13 @@ a{
     background-color: var(--body-color);
     box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
   }
-/* @media screen and (min-width : 768px) {
+@media screen and (min-width : 768px) {
    .Category{
     flex-direction: row;
     margin-top: 20px;
+   }
+   .HomeCarusel{
+    width: 1400px;
    }
    .product-list{
     flex-direction: row;
@@ -1134,16 +1140,40 @@ a{
     font-size: 20px;
     margin-top: 20px;
    }
+   .SpecialProduct{
+    width: 1400px;
+   }
    .SpecialProduct h1{
     
     padding-top: 20px;
+   }
+   .golfimg h1{
+    width: 1400px;
    }
    .content-item{
     padding: 0 10px;
    }
    .home_image{
     flex-direction: row;
+    width: 1400px;
    }
-
-} */
+   .blog{
+    flex-direction: row;
+    margin: 0 auto;
+   }
+   .footer-top .setwidth{
+    margin: 0 0;
+    }
+    .weather-container{
+        width: 1400px;
+    }
+}
+@media screen and (min-width: 768px){
+    .navbar{
+        width: 1400px;
+    }
+}
+a{
+    text-decoration-line: none;
+}
 

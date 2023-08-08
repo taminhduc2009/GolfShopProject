@@ -46,6 +46,6 @@ function register() {
   
   function signOut() {
     sessionStorage.removeItem('loggedInUsername');
-    window.location.href = 'signin.html';
+    window.location.href = 'register.html';
   }
   

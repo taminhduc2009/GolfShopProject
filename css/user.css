@@ -249,3 +249,11 @@ button {
 .SpecialProduct{
     margin: 20px 0;
 }
+div button{
+    width: 10px;
+    color: #fff;
+}
+.formm .search{
+    width: 150px;
+    color: blue;
+}
